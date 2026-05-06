@@ -80,88 +80,6 @@ Intermittent: ~15–25% overall; higher on mobile (~35%) and lower on desktop (~
 **Where exactly it breaks:**
 Steps 4–6: seat selection state is not reliably passed between the seat-map component and the passenger-details step; on mobile a re-render or state reset clears the selection.
 
----
-
-## Self-Discovery Instructions
-
-Set a 20-minute timer and explore `irctc.co.in` live on at least two devices (desktop and mobile). Record at least 5 friction notes, then choose the 3 strongest to document below using the exact structure above. For each self-discovered problem include:
-- How I found it (screen & action)
-- Screenshot or detailed description (save images to `assets/screenshots/` and reference them)
-- All other fields from the Given problems template
-
----
-
-## Problem 4: (Self-discovered)
-
-**What is broken:**
-
-**Affected users:**
-
-**Frequency:**
-
-**How I found it:**
-
-**Screenshot / description:**
-
-**Current flow — step by step:**
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-
-**Where exactly it breaks:**
-
----
-
-## Problem 5: (Self-discovered)
-
-**What is broken:**
-
-**Affected users:**
-
-**Frequency:**
-
-**How I found it:**
-
-**Screenshot / description:**
-
-**Current flow — step by step:**
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-
-**Where exactly it breaks:**
-
----
-
-## Problem 6: (Self-discovered)
-
-**What is broken:**
-
-**Affected users:**
-
-**Frequency:**
-
-**How I found it:**
-
-**Screenshot / description:**
-
-**Current flow — step by step:**
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-
-**Where exactly it breaks:**
-
----
 
 ## Submission Checklist
 - Fill all six problem entries with real, observed flows from the live site.
@@ -267,6 +185,4 @@ Steps 3–6: the backend-to-frontend sync for PNR state is not real-time; there 
 
 ---
 
-## Notes & Next Steps
-- Replace placeholder images in `assets/screenshots/` with live screenshots captured during exploration.
-- After you capture live screenshots, add them to `assets/screenshots/` and update the image paths above.
+
