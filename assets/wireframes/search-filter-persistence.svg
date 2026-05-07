@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+  <rect width="900" height="1200" fill="#f7f7f7"/>
+  <rect x="40" y="40" width="820" height="90" rx="12" fill="#fff" stroke="#999"/>
+  <text x="70" y="95" font-family="Arial" font-size="32" fill="#222">Search form</text>
+  <rect x="40" y="170" width="820" height="120" rx="12" fill="#fff" stroke="#999"/>
+  <text x="70" y="215" font-family="Arial" font-size="28" fill="#222">Active filters</text>
+  <rect x="70" y="235" width="120" height="40" rx="20" fill="#dfeaff" stroke="#4a6fb3"/>
+  <text x="92" y="262" font-family="Arial" font-size="20" fill="#17324d">Sleeper x</text>
+  <rect x="210" y="235" width="110" height="40" rx="20" fill="#dfeaff" stroke="#4a6fb3"/>
+  <text x="234" y="262" font-family="Arial" font-size="20" fill="#17324d">Tatkal x</text>
+  <rect x="340" y="235" width="170" height="40" rx="20" fill="#dfeaff" stroke="#4a6fb3"/>
+  <text x="356" y="262" font-family="Arial" font-size="20" fill="#17324d">Flexible date x</text>
+  <rect x="40" y="340" width="820" height="220" rx="12" fill="#fff" stroke="#999"/>
+  <text x="70" y="390" font-family="Arial" font-size="28" fill="#222">Results list</text>
+  <rect x="70" y="420" width="760" height="110" rx="10" fill="#f1f7ff" stroke="#7aa0d8"/>
+  <text x="100" y="470" font-family="Arial" font-size="28" fill="#222">12622 Tamil Nadu Exp</text>
+  <text x="100" y="515" font-family="Arial" font-size="22" fill="#444">SL | Tatkal | Runs daily</text>
+  <rect x="40" y="620" width="820" height="150" rx="12" fill="#fff7e6" stroke="#c48a1b"/>
+  <text x="70" y="675" font-family="Arial" font-size="26" fill="#7a4d00">Loading / empty state</text>
+  <text x="70" y="720" font-family="Arial" font-size="22" fill="#7a4d00">Keep the selected filters visible while results refresh.</text>
+</svg>

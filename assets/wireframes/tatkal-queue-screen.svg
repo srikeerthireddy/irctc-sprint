@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1400" viewBox="0 0 900 1400">
+  <rect width="900" height="1400" fill="#f4f4f4"/>
+  <rect x="40" y="40" width="820" height="90" rx="10" fill="#ffffff" stroke="#999"/>
+  <text x="70" y="95" font-family="Arial" font-size="34" fill="#222">IRCTC Logo</text>
+  <text x="650" y="95" font-family="Arial" font-size="34" fill="#222">Profile</text>
+  <rect x="80" y="190" width="740" height="150" rx="12" fill="#dfeaff" stroke="#4a6fb3"/>
+  <text x="120" y="245" font-family="Arial" font-size="32" fill="#17324d">Tatkal booking opens in</text>
+  <text x="120" y="305" font-family="Arial" font-size="54" fill="#17324d">04 : 23 : 11</text>
+  <rect x="80" y="390" width="740" height="240" rx="12" fill="#fff" stroke="#999"/>
+  <text x="120" y="445" font-family="Arial" font-size="30" fill="#222">Your queue position</text>
+  <text x="120" y="505" font-family="Arial" font-size="44" fill="#222">#4,281</text>
+  <text x="120" y="565" font-family="Arial" font-size="28" fill="#444">Estimated wait: 09 minutes</text>
+  <rect x="120" y="595" width="620" height="28" rx="14" fill="#d9d9d9"/>
+  <rect x="120" y="595" width="260" height="28" rx="14" fill="#2e6ed6"/>
+  <text x="120" y="700" font-family="Arial" font-size="26" fill="#333">Train selected: 12622 Tamil Nadu Exp</text>
+  <text x="120" y="745" font-family="Arial" font-size="26" fill="#333">Class: Sleeper | Pax: 2</text>
+  <text x="120" y="790" font-family="Arial" font-size="26" fill="#333">Passenger details: Saved</text>
+  <rect x="120" y="840" width="280" height="70" rx="10" fill="#17324d"/>
+  <rect x="430" y="840" width="280" height="70" rx="10" fill="#ffffff" stroke="#17324d"/>
+  <text x="195" y="885" font-family="Arial" font-size="26" fill="#fff">Hold my slot</text>
+  <text x="500" y="885" font-family="Arial" font-size="26" fill="#17324d">Edit search</text>
+  <rect x="80" y="980" width="740" height="200" rx="12" fill="#fff7e6" stroke="#c48a1b"/>
+  <text x="120" y="1040" font-family="Arial" font-size="28" fill="#7a4d00">Error/loading state</text>
+  <text x="120" y="1090" font-family="Arial" font-size="24" fill="#7a4d00">If reservation fails, show retry and keep the search data.</text>
+  <text x="120" y="1130" font-family="Arial" font-size="24" fill="#7a4d00">Do not clear the entered passenger details.</text>
+</svg>
