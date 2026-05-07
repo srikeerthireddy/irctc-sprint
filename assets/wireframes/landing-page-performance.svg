@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1000" viewBox="0 0 900 1000">
+  <rect width="900" height="1000" fill="#f7f7f7"/>
+  <rect x="40" y="40" width="820" height="90" rx="12" fill="#fff" stroke="#999"/>
+  <text x="70" y="95" font-family="Arial" font-size="32" fill="#222">Fast landing page</text>
+  <rect x="40" y="170" width="820" height="170" rx="12" fill="#fff" stroke="#999"/>
+  <text x="70" y="225" font-family="Arial" font-size="28" fill="#222">Header</text>
+  <text x="70" y="275" font-family="Arial" font-size="28" fill="#222">Booking form</text>
+  <text x="70" y="325" font-family="Arial" font-size="22" fill="#444">Only essential status on first paint</text>
+  <rect x="40" y="380" width="820" height="220" rx="12" fill="#fff" stroke="#999"/>
+  <text x="70" y="435" font-family="Arial" font-size="28" fill="#222">Below the fold</text>
+  <rect x="70" y="465" width="220" height="100" rx="10" fill="#f1f1f1" stroke="#999"/>
+  <rect x="320" y="465" width="220" height="100" rx="10" fill="#f1f1f1" stroke="#999"/>
+  <rect x="570" y="465" width="220" height="100" rx="10" fill="#f1f1f1" stroke="#999"/>
+  <text x="95" y="525" font-family="Arial" font-size="20" fill="#666">Promo modules</text>
+  <text x="368" y="525" font-family="Arial" font-size="20" fill="#666">Social links</text>
+  <text x="612" y="525" font-family="Arial" font-size="20" fill="#666">Secondary services</text>
+  <rect x="40" y="650" width="820" height="150" rx="12" fill="#fff7e6" stroke="#c48a1b"/>
+  <text x="70" y="705" font-family="Arial" font-size="26" fill="#7a4d00">Performance state</text>
+  <text x="70" y="750" font-family="Arial" font-size="22" fill="#7a4d00">Non-essential widgets load after the booking form is usable.</text>
+</svg>
