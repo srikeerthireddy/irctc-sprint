@@ -55,11 +55,13 @@ Give Tatkal users a protected booking slot with a visible queue position and a s
 - Tatkal completion rate increases from the current peak-hour baseline.
 - Reservation timeout errors decrease.
 - Median time from search result selection to payment start stays consistent under load.
+- Queue abandonment rate drops after users refresh or reconnect.
 
 ### Edge Cases and Constraints
 - Reservation slots must expire cleanly when the user disappears.
 - The queue must never promise availability, only a turn to attempt booking.
 - If Railway inventory APIs fail, the UI must preserve state and show a clear retry path.
+- If the user refreshes mid-queue, the reservation must rehydrate from the last valid token instead of restarting the flow.
 
 ---
 
@@ -288,11 +290,13 @@ Let users search first and delay sign-in until the flow actually needs identity,
 - Landing-page bounce rate decreases.
 - Search-to-results conversion increases.
 - Fewer sessions are abandoned before the first search completes.
+- Guest-to-authenticated draft recovery succeeds after sign-in on the first attempt.
 
 ### Edge Cases and Constraints
 - Some payment or policy flows may still require immediate sign-in.
 - Guest drafts must expire to prevent abuse.
 - Logged-in users should not see an extra step unless the flow truly needs it.
+- If OTP delivery fails, the draft must remain intact and the user should be allowed to retry without losing search state.
 
 ---
 
@@ -344,13 +348,16 @@ Make the booking form the first thing that becomes usable, then defer everything
 - Time to first meaningful booking interaction decreases.
 - Mobile LCP improves.
 - Users drop off less often before entering trip details.
+- First usable paint should occur before any non-essential widget blocks the booking form.
+- Critical landing-page scripts should stay under the agreed performance budget.
 
 ### Edge Cases and Constraints
 - Promotional modules still need to exist, but they cannot block booking.
 - Third-party failures must not break the form.
 - Performance gains should not reduce accessibility or error handling quality.
+- If a deferred widget fails to load, the booking module should remain fully usable and visually stable.
 
 ---
 
 ## Peer Review Follow-Up
-The top two specs to review first are Tatkal Booking Crash Resilience and Deferred Login Flow, because they sit closest to the core booking funnel. After review, I would update the Tatkal spec with stricter expiry behavior, refine the Deferred Login metrics, and tighten the landing-page performance budget so the docs reflect the questions raised during critique.
+The top two specs to review first are Tatkal Booking Crash Resilience and Deferred Login Flow, because they sit closest to the core booking funnel. After review, I updated the Tatkal spec with reconnect-safe queue recovery, refined the Deferred Login metrics around draft recovery, and tightened the landing-page performance budget so the docs reflect the questions raised during critique.

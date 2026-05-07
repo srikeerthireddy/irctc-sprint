@@ -43,6 +43,6 @@ Part A Problem 6 affects all users because a heavy landing page slows the first 
 1. Search Filter Persistence — quickest visible win with low implementation risk.
 2. Deferred Login Flow — removes a funnel interruption that affects conversion immediately.
 3. AskDisha Overlay Redesign — simple layout change that clears the booking surface.
-4. Tatkal Booking Crash Resilience — highest business value, but requires heavier engineering.
-5. Seat Preference State Preservation — important state-management fix with broader implementation cost.
-6. Landing-Page Performance Hardening — large cross-cutting improvement best done after the core funnel issues.
+4. Landing-Page Performance Hardening — the review called out the visible landing friction, so it should follow the quick wins.
+5. Tatkal Booking Crash Resilience — highest business value, but requires heavier engineering.
+6. Seat Preference State Preservation — important state-management fix with broader implementation cost.
